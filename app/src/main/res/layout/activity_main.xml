@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Welcome! Press RECORD  to record "
         />
 
     <Button
@@ -18,12 +18,14 @@
         android:id="@+id/record"
         android:layout_height="wrap_content"
         android:text="Record"
+        android:layout_margin="16dp"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/viewRecording"
+        android:layout_margin="16dp"
         android:text="View Recording"/>
 
 </LinearLayout>
